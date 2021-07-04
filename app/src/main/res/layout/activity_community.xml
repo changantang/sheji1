@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".homepageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+
+        <Button
+            android:id="@+id/bu_friend"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="关 注"
+            android:background="@drawable/bg_username"
+
+            />
+
+        <Button
+            android:id="@+id/bu_city"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="推 荐"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/bg_username"/>
+
+        <Button
+            android:id="@+id/bu_release"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="发布动态"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/bg_username"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/te_1"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="社区页"
+        android:textSize="40sp"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+
+                <Button
+                    android:id="@+id/bu_picture"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="图 片"
+                    android:background="@drawable/bg_button"
+                    />
+
+                <Button
+                    android:id="@+id/bu_community"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="社 区"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/bg_button"/>
+
+                <Button
+                    android:id="@+id/bu_message"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="消 息"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/bg_button"/>
+
+                <Button
+                    android:id="@+id/bu_personal"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="个 人"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/bg_button"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
